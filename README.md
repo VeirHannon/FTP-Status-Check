@@ -27,11 +27,11 @@ chmod +x ftp_status_check.sh
 ```
 
 ## Requirements  
-curl (recommended, usually pre-installed)  
+- **curl** (recommended, usually pre-installed)  
 
-lftp (optional, required only for --lftp mode)  
+- **lftp** (optional, required only for --lftp mode)  
   
-Standard GNU utilities (xargs, timeout)  
+- **Standard GNU utilities** (xargs, timeout)  
 
 ## Credentials File Format
 Each line should follow the format:  
