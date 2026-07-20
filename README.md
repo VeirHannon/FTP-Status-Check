@@ -11,6 +11,14 @@ A fast multithreaded FTP credentials checker supporting both `curl` and `lftp`.
 - Color-coded output for easy status recognition
 - Lightweight and efficient
 
+## Security Disclaimer  
+This tool is intended for authorized security testing and legitimate system administration only.
+
+Using this script on systems without explicit permission from the owner is illegal and may violate applicable laws (Computer Fraud and Abuse Act in the US, or equivalent legislation in other jurisdictions).
+The author is not responsible for any misuse, damage, or legal consequences resulting from the use of this tool.
+Always ensure you have proper authorization before scanning or testing any FTP servers.
+Respect privacy and comply with all relevant laws and ethical guidelines.
+
 ## Installation
 ``` Bash
 git clone https://github.com/VeirHannon/ftp-checker.git
@@ -57,11 +65,3 @@ Using lftp
 Quiet mode with increased threads
 ./ftp_status_check.sh --lftp -q -t 50 creds1.txt
 ```
-
-## Security Disclaimer  
-This tool is intended for authorized security testing and legitimate system administration only.
-
-Using this script on systems without explicit permission from the owner is illegal and may violate applicable laws (Computer Fraud and Abuse Act in the US, or equivalent legislation in other jurisdictions).
-The author is not responsible for any misuse, damage, or legal consequences resulting from the use of this tool.
-Always ensure you have proper authorization before scanning or testing any FTP servers.
-Respect privacy and comply with all relevant laws and ethical guidelines.
