@@ -1,7 +1,6 @@
 #!/bin/bash
 
 usage() {
-    echo "Author VeirHannon https://github.com/VeirHannon"
     echo "Usage: $0 [OPTIONS] [creds_file]"
     echo "Options:"
     echo "  -c, --curl       Use curl (default)"
