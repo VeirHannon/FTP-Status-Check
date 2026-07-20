@@ -5,15 +5,6 @@
 
 A fast multithreaded FTP credentials checker supporting both `curl` and `lftp`.
 
-## Features
-
-- Support for two backends: `curl` (default) and `lftp`
-- Configurable multithreading
-- Quiet mode — displays only successful logins
-- Automatic saving of working credentials
-- Color-coded output for easy status recognition
-- Lightweight and efficient
-
 ## Security Disclaimer  
 This tool is intended for authorized security testing and legitimate system administration only.
 
@@ -45,8 +36,8 @@ Each line should follow the format:
 ## Options
 | Option      | Short | Description                        |  
 | :--- | :---: | ---: |  
-| \-\-curl    | \-c   | Use curl backend                   |  
-| \-\-lftp    | \-l   | Use lftp backend                   |  
+| \-\-curl    | \-c   | Use curl                    |  
+| \-\-lftp    | \-l   | Use lftp                    |  
 | \-\-threads | \-t   | Number of parallel threads         |  
 | \-\-quiet   | \-q   | Quiet mode \(show only successes\) |  
 | \-\-help    | \-h   | Show help message                  |  
