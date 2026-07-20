@@ -1,7 +1,7 @@
+# FTP Status Check
+
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 ![Shell](https://img.shields.io/badge/language-bash-blue)
-
-# FTP Status Check
 
 A fast, multithreaded FTP credential checker written in Bash, supporting both curl and lftp backends. Built as a lab tool for CTF and offensive-security practice: given a list of host/credential pairs recovered during an engagement, it validates which ones are live in parallel.
 
