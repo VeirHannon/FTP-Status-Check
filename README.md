@@ -1,3 +1,6 @@
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+![Shell](https://img.shields.io/badge/language-bash-blue)
+
 # FTP Status Check
 
 A fast multithreaded FTP credentials checker supporting both `curl` and `lftp`.
