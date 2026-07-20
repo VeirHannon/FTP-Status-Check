@@ -8,7 +8,7 @@ A fast, multithreaded FTP credential checker written in Bash, supporting both cu
 ## Context and scope
 
 This project was written and used exclusively in controlled, self-authorized
-environments — local vulnerable VMs and self-hosted CTF labs (VulnHub images and
+environments - local vulnerable VMs and self-hosted CTF labs (VulnHub images and
 custom lab setups). It is a learning exercise in Bash concurrency and protocol
 handling, not a tool for use against systems you do not own or have explicit
 written permission to test.
