@@ -65,6 +65,3 @@ Using this script on systems without explicit permission from the owner is illeg
 The author is not responsible for any misuse, damage, or legal consequences resulting from the use of this tool.
 Always ensure you have proper authorization before scanning or testing any FTP servers.
 Respect privacy and comply with all relevant laws and ethical guidelines.
-
-Author VeirHannon  
-https://github.com/VeirHannon
