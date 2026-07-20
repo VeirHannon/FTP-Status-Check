@@ -24,8 +24,8 @@ Respect privacy and comply with all relevant laws and ethical guidelines.
 
 ## Installation
 ``` Bash
-git clone https://github.com/VeirHannon/ftp-checker.git
-cd ftp-checker
+git clone https://github.com/VeirHannon/FTP-Status-Check.git
+cd FTP-Status-Check
 chmod +x ftp_status_check.sh
 ```
 
