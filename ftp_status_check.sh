@@ -1,7 +1,4 @@
 #!/bin/bash
-# =============================================
-# FTP Checker — curl / lftp + quiet mode
-# =============================================
 
 usage() {
     echo "Author VeirHannon https://github.com/VeirHannon"
@@ -91,7 +88,6 @@ check_ftp() {
 export -f check_ftp
 export TOOL QUIET
 
-# Run in parallel
 cat "$CREDS_FILE" | xargs -I {} -P "$THREADS" bash -c 'check_ftp "{}"'
 
 echo "=================================================="
