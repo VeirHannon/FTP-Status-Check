@@ -3,15 +3,21 @@
 
 # FTP Status Check
 
-A fast multithreaded FTP credentials checker supporting both `curl` and `lftp`.
+A fast, multithreaded FTP credential checker written in Bash, supporting both curl and lftp backends. Built as a lab tool for CTF and offensive-security practice: given a list of host/credential pairs recovered during an engagement, it validates which ones are live in parallel.
 
-## Security Disclaimer  
-This tool is intended for authorized security testing and legitimate system administration only.
+## Context and scope
 
-Using this script on systems without explicit permission from the owner is illegal and may violate applicable laws (Computer Fraud and Abuse Act in the US, or equivalent legislation in other jurisdictions).
-The author is not responsible for any misuse, damage, or legal consequences resulting from the use of this tool.
-Always ensure you have proper authorization before scanning or testing any FTP servers.
-Respect privacy and comply with all relevant laws and ethical guidelines.
+This project was written and used exclusively in controlled, self-authorized
+environments — local vulnerable VMs and self-hosted CTF labs (VulnHub images and
+custom lab setups). It is a learning exercise in Bash concurrency and protocol
+handling, not a tool for use against systems you do not own or have explicit
+written permission to test.
+
+Running credential checks against hosts without authorization is illegal in most
+jurisdictions (e.g. the Computer Fraud and Abuse Act in the US, and equivalent
+laws elsewhere). Always confirm you have proper authorization before testing any
+FTP server. The author is not responsible for misuse or any resulting damage or
+legal consequences.
 
 ## Installation
 ``` Bash
